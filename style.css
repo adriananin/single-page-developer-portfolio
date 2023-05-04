@@ -20,6 +20,11 @@ header {
   overflow: hidden;
 }
 
+main {
+  overflow: hidden;
+  position: relative;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -108,39 +113,16 @@ header {
 .hero-contact::after {
   content: "";
   position: absolute;
-  bottom: -2px;
+  bottom: -10px;
   left: 0;
   width: 100%;
-  height: 4px;
+  height: 2px;
   background-color: var(--green);
 }
 
 .tools {
-  position: relative;
   text-align: center;
   margin-top: 5em;
-}
-
-.tools::before {
-  content: "";
-  position: absolute;
-  top: -45px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  height: 2px;
-  background-color: var(--text-color);
-}
-
-.tools::after {
-  content: "";
-  position: absolute;
-  bottom: -45px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  height: 2px;
-  background-color: var(--text-color);
 }
 
 .tool {
@@ -164,4 +146,94 @@ header {
 
 .last-tool {
   margin-bottom: 2.5em;
+}
+
+hr {
+  width: 90%;
+}
+
+.svg-right2 {
+  position: absolute;
+  top: 782px;
+  left: 220px;
+  z-index: -1;
+}
+
+.projects {
+  margin-top: 4em;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.projects-contact {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 700;
+  margin-top: 1.25em;
+  position: relative;
+}
+
+.projects-contact::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--green);
+}
+
+.project-card {
+  margin-top: 1.25em;
+}
+
+.project-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project-img {
+  width: 90%;
+  height: auto;
+}
+
+.project-title {
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.project-language {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+  color: var(--grey);
+}
+
+.project-preview {
+  display: flex;
+  gap: 30px;
+  margin-left: 20px;
+}
+
+.project-preview-text {
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.project-preview-text::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--green);
 }
