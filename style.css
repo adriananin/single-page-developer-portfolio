@@ -324,6 +324,18 @@ form {
   font-weight: 700;
 }
 
+/* .form__field:valid {
+  border-color: (--grey);
+}
+
+.form__field:invalid {
+  border-color: red;
+} */
+
+input.invalid {
+  border-color: red;
+}
+
 /* reset input */
 .form__field:required,
 .form__field:invalid {
@@ -347,8 +359,8 @@ form {
 
 .contactbtn:hover,
 .submitbtn:hover {
-  background-color: var(--green);
-  color: var(--main-bg-color);
+  /* background-color: var(--green); */
+  color: var(--green);
 }
 
 .svg-left2 {

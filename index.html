@@ -374,7 +374,7 @@
             </div>
 
             <div class="contact-form">
-              <form action="post">
+              <form action="post" novalidate>
                 <div class="form">
                   <div class="form__group field">
                     <input
@@ -394,7 +394,9 @@
                       class="form__field"
                       placeholder="EMAIL"
                       required
+                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                     />
+                    <div id="error-message" style="color: red"></div>
                     <label for="email" class="form__label">Email</label>
                   </div>
 
