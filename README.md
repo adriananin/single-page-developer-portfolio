@@ -21,7 +21,7 @@ This is a solution to the [Single-page developer portfolio challenge on Frontend
 
 ### Links
 
-- [Solution URL:](https://your-solution-url.com)
+- [Solution URL:](https://github.com/adriananin/single-page-developer-portfolio)
 - [Live Site URL:](https://adriananin.github.io/single-page-developer-portfolio/)
 
 ## My process
