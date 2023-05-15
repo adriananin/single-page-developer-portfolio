@@ -324,14 +324,6 @@ form {
   font-weight: 700;
 }
 
-/* .form__field:valid {
-  border-color: (--grey);
-}
-
-.form__field:invalid {
-  border-color: red;
-} */
-
 input.invalid {
   border-color: red;
 }
@@ -359,7 +351,6 @@ input.invalid {
 
 .contactbtn:hover,
 .submitbtn:hover {
-  /* background-color: var(--green); */
   color: var(--green);
 }
 
