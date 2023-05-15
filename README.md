@@ -47,4 +47,4 @@ This is a solution to the [Single-page developer portfolio challenge on Frontend
 ## Author
 
 - Website - [Adrian Anin](https://adriananin.github.io/anin-blog-odyssey/)
-- Frontend Mentor - [@@adriananin](https://www.frontendmentor.io/profile/adriananin)
+- Frontend Mentor - [@adriananin](https://www.frontendmentor.io/profile/adriananin)
