@@ -76,7 +76,11 @@
             Based in the UK, I'm a front-end developer passionate about building
             accessible web apps that users love.
           </p>
-          <p><button type="submit" class="contactbtn">Contact Me</button></p>
+          <p>
+            <button class="contactbtn" onclick="scrollToSection()">
+              Contact Me
+            </button>
+          </p>
         </div>
       </div>
 
@@ -146,7 +150,11 @@
         <div class="projects container">
           <div class="heading">
             <h1>Projects</h1>
-            <p><button type="submit" class="contactbtn">Contact Me</button></p>
+            <p>
+              <button class="contactbtn" onclick="scrollToSection()">
+                Contact Me
+              </button>
+            </p>
           </div>
           <div class="project-card">
             <div class="project-img-container">
@@ -373,8 +381,8 @@
               </p>
             </div>
 
-            <div class="contact-form">
-              <form action="post" novalidate>
+            <div class="contact-form" id="target-section">
+              <form action="post">
                 <div class="form">
                   <div class="form__group field">
                     <input
